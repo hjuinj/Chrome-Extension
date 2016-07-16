@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Synonyms",
+    "version": "1.0",
+    "description": "Get the synonyms of input word",
+    "icons": {
+      "16" : "16.png"  
+    },
+    "background": {
+        "scripts": [
+            "synonym.js"
+        ]
+    },
+
+    "omnibox": {
+        "keyword": "ty"
+    },
+    "permissions": [
+        "*://www.thesaurus.com/browse/*"
+    ]
+}
